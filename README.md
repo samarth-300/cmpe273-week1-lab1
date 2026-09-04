@@ -27,7 +27,7 @@ python app.py
 
 Service A is running on port `8080`. The `/health` and `/echo` endpoints return `200 OK`.
 
-![Service A Success](docs/service-a-success.png)
+![Service A Success](service-a-success.png)
 
 ## Success Proof — Service B Calling Service A
 
