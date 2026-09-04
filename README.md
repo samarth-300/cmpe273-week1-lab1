@@ -33,13 +33,13 @@ Service A is running on port `8080`. The `/health` and `/echo` endpoints return 
 
 Service B is running on port `8081` and successfully communicates with Service A.
 
-![Service B Success](docs/service-b-success.png)
+![Service B Success](service-b-success.png)
 
 ## Failure Proof — Service A Stopped
 
 Service A was stopped while Service B remained running. When Service B attempts to call Service A, it returns `503 Service Unavailable`.
 
-![Failure Proof](docs/service-a-failure.png)
+![Failure Proof](service-a-failure.png)
 
 What Makes This Distributed?
 
